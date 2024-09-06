@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;/* Justificando do contéudo -aqui podemos ajustar conforme nossa necessidade*/
+    align-items: center;
+}
+.nome {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(0 ,0 ,0 );
+}
+
+.nome div {
+   background-color: rgb(255, 255, 255);
+   width: 150px;
+   height: 50px;
+   box-shadow: 15px 15px 20px rgb(255, 255, 255, 0,205);
+   padding: 90px;
+}
+
+.nome div:hover {
+   transition: 0.8s; 
+   transform:translate(20px,30px);
+   /*transform: scale(1.1, 1.1); Trabalha com escala de movimentação dos eixos X e Y */
+   transform: scale(1.5, 1.5);/*Trabalha com escala de movimentação dos eixos Xe Y */
+   /*3.scale()
+   /*Descrição: Redimensiona um elemento ao longo dos eixos X e Y.*/
+   /*4.skew()
+   Derscrição: Inclina um elemento ao longo dos eixos X e Y.*/
+   transform: 0,7s;
+}
+.nome button{
+    padding: 50px;
+    margin-left: 350px;
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 20px;
+
+}
+
+footer{
+    padding: 20px;
+    background-color: brown;
+}
